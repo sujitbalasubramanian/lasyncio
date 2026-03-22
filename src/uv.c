@@ -54,7 +54,7 @@ static const struct luaL_Reg uv[] = {
 };
 
 int
-luaopen_lasync_uv(lua_State* L)
+luaopen_lasyncio_uv(lua_State* L)
 {
   luaL_newlib(L, uv);
   return 1;

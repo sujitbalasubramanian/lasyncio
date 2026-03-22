@@ -1,6 +1,6 @@
 ---@meta
 
----@class lasync.uv
+---@class lasyncio.uv
 local uv = {}
 
 ---Initialize the libuv loop.

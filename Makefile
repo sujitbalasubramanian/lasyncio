@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -O2 -fPIC
 LIBS = -luv -llua
-TARGET = lasync.so  
+TARGET = lasyncio.so  
 SRC = $(wildcard src/*.c)
 OBJS = $(SRC:.c=.o)
 

@@ -1,4 +1,4 @@
-local uv = require("lasync.uv")
+local uv = require("lasyncio.uv")
 
 if uv.open_el() then
 	print("event loop opened successfully")
